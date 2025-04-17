@@ -124,10 +124,12 @@ function signUpAuth(email,phoneNum){
         }
     }
 
-
     if (userEmail == true || userPhoneNum == true){
         return "Sign up"
     } 
+    else {
+        return "Email or phone number not found"
+    }
 }
 
 let emailArray = ["example123@gmail.com","dummymail4@gmail.com", "crazymail@yahoo.com"];
